@@ -1,0 +1,116 @@
+body{
+    background-color: #b0bcff;
+}
+
+.eggs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.egg1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.egg2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: -80px;
+}
+
+.eggWhite{
+    background-color: white;
+    height: 330px;
+    width: 260px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    box-shadow: -25px 0px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.eggYolk{
+    background-color: #f5d201;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.eyes{
+    display: flex;
+    width: 70px;
+    justify-content: space-between;
+    margin-top: 50%;
+}
+
+.leye{
+    background-color: black;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+}
+
+.reye{
+    background-color: black;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+}
+
+.face{
+    display: flex;
+    width: 100px;
+    height: 30px;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+
+.lblush{
+    background-color: #f5750f;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.rblush{
+    background-color: #f5750f;
+
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.smile1{
+    height: 15px;
+    width: 25px;
+    border-radius: 5px 5px 15px 15px;
+    border: 3px solid #010008;
+    background: radial-gradient(
+        at 40% 100%,
+        #f5750f 8px,
+        #010008 8px
+    );
+    margin-top: 6%;
+}
+
+.smile2{
+    height: 15px;
+    width: 15px;
+    background: transparent;
+    border-radius: 50%;
+    border: 5.5px solid transparent;
+    border-left: 5.5px solid #010008;
+    border-bottom: 5.5px solid #010008;
+    rotate: 315deg;
+}
