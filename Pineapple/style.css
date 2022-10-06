@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+}
+
+body {
+    background-color: #eaffaf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+  }
+  .pineapple {
+    position: relative;
+    background-color: #fbc052;
+    height: 330px;
+    width: 300px;
+    border-radius: 60% 60% 47% 47%;
+    background-image: repeating-linear-gradient(
+      135deg,
+      transparent 0px 40px,
+      #fdad35 1px,
+      #fdad35 50px
+    ), 
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 40px,
+      #ffb443 1px,
+      #ffb443 50px
+    );
+  }
+  
+  .leaf {
+    position: relative;
+    display: flex;
+    top: 50px;
+  }
+  
+  .leaf1 {
+    position: relative;
+    background-color: rgb(2, 93, 2);
+    height: 150px;
+    width: 150px;
+    border-radius: 0% 90%;
+    left: 80px;
+    top: 30px;
+  }
+  
+  .leaf2 {
+    position: relative;
+    background-color: green;
+    height: 150px;
+    width: 150px;
+    border-radius: 90% 0%;
+    rotate: 135deg;
+    right: 150px;
+  }
+  
+  .leaf3 {
+    position: relative;
+    background-color: rgb(2, 93, 2);
+    height: 150px;
+    width: 150px;
+    border-radius: 90% 0%;
+    left: 60px;
+    top: 30px;
+  }
+  
+  .eyes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    position: relative;
+    bottom: 265px;
+  }
+  
+  .eye1 {
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .eye2 {
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .eyeball1 {
+    background-color: black;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background: radial-gradient(at 40% 30%, #ffffff 8px, #010008 8px);
+  }
+  
+  .eyeball2 {
+    background-color: black;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background: radial-gradient(at 40% 30%, #ffffff 8px, #010008 8px);
+  }
+  
+  .smile {
+    position: relative;
+    background-color: rgb(255, 109, 109);
+    height: 30px;
+    width: 50px;
+    border-radius: 7px 7px 25px 25px;
+    bottom: 170px;
+  }
+  
+  .blush {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    bottom: 210px;
+  }
+  
+  .lblush {
+    background-color: #ff76e1;
+    height: 15px;
+    width: 35px;
+    border-radius: 50%;
+  }
+  
+  .rblush {
+    background-color: #ff76e1;
+    height: 15px;
+    width: 35px;
+    border-radius: 50%;
+  }
+  
